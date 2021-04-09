@@ -539,7 +539,7 @@ header.top_header .wrapper nav.right_nav ul li a:hover {
   font-weight: bold;
   font-size: 50px;
   line-height: 62px;
-  color: #fff;
+  color: #ffffff;
   text-shadow: 2px 2px 3px black;
 }
 
@@ -556,8 +556,8 @@ header.top_header .wrapper nav.right_nav ul li a:hover {
 .about_box {
   display: flex;
   align-items: center;
-  margin-top: 70px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .about_box .item_data:first-child {
@@ -571,7 +571,7 @@ header.top_header .wrapper nav.right_nav ul li a:hover {
 }
 
 .about_box .item_data article {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .about_box .item_data article:last-child {
    margin-bottom: 0; 
@@ -607,7 +607,7 @@ color: #9A9A9A;
 /* Infographic */
 
 .infographic {
-  background: rgba(180, 122, 235, 0.767);
+  background: #ace6f7ad;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 60px;
@@ -691,7 +691,7 @@ display: block;
 
  .team_list .team_member {
   width: calc(50% - 201.5px);
-  background: #df8f97;
+  background: #ace6f7ad;
   border-radius: 5px;
   margin-bottom: 40px;
   margin-left: 190px;
@@ -724,7 +724,7 @@ font-style: normal;
 font-weight: 300;
 font-size: 20px;
 line-height: 25px;
-color: #433840;
+color: #EB4F5E;
 display: block;
 margin-bottom: 14px;
 }
@@ -745,7 +745,7 @@ margin-left: 5px;
 
 .team_list .team_member:nth-child(2),
 .team_list .team_member:nth-child(3) {
-  background: rgba(202, 200, 204, 0.767);
+  background: #BCEADF;
 }
 
 .team_list .team_member:nth-child(3),
@@ -779,7 +779,7 @@ margin-left: 5px;
   align-items: center;
   justify-content: space-evenly;
   min-height: 500px;
-  background-color: #b3d4fc;
+  background-color: #ace6f7ad;
   margin-top: 50px;
 }
 
@@ -799,4 +799,24 @@ margin-left: 5px;
 
 .contacts .social img {
   border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(121, 119, 119, 0.61));
+}
+
+.contacts h3 {
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #FFFFFF;
+}
+
+.contacts .open_hours {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 330px;
+  height: 220px;
 }

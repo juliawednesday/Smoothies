@@ -583,7 +583,7 @@ header.top_header .wrapper nav.right_nav ul li a:hover {
   font-weight: normal;
   font-size: 30px;
   line-height: 37px;
-  color: #7a2b97;
+  color: #eb4f5e;
   margin-bottom: 12px;
 }
 
@@ -596,10 +596,18 @@ line-height: 24px;
 color: #9A9A9A;
 }
 
+.about_box .item_data img {
+  height: 520px;
+  width: 340px;
+  z-index: 1;
+  margin-bottom: 50px;
+  /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+}
+
 /* Infographic */
 
 .infographic {
-  background: rgba(178, 104, 247, 0.733);
+  background: rgba(180, 122, 235, 0.767);
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 60px;
@@ -660,7 +668,7 @@ display: block;
   font-weight: bold;
   font-size: 50px;
   line-height: 60px;
-  color: #542366;
+  color: #eb4f5e;
   text-align: center;
 }
  .team .subtitle {
@@ -669,7 +677,7 @@ display: block;
   font-weight: 300;
   font-size: 30px;
   line-height: 40px;
-  color: #eb4f5e;
+  color: #33163d;
   display: block;
   text-align: center;
   margin-bottom: 60px;
@@ -683,7 +691,7 @@ display: block;
 
  .team_list .team_member {
   width: calc(50% - 201.5px);
-  background: #C9E3F4;
+  background: #df8f97;
   border-radius: 5px;
   margin-bottom: 40px;
   margin-left: 190px;
@@ -736,7 +744,7 @@ margin-left: 5px;
 
 .team_list .team_member:nth-child(2),
 .team_list .team_member:nth-child(3) {
-  background: #DFEEB6;
+  background: rgba(202, 200, 204, 0.767);
 }
 
 .team_list .team_member:nth-child(3),

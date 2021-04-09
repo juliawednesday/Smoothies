@@ -614,7 +614,7 @@ color: #9A9A9A;
 }
 
 .infographic .info_list {
-  min-height: 600px;
+  min-height: 450px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -697,6 +697,7 @@ display: block;
   margin-left: 190px;
   display: flex;
   align-items: center;
+  border-radius: 10px;
  }
 
  .team_list .team_member .image img {
@@ -770,4 +771,32 @@ margin-left: 5px;
   margin-left: 0;
   margin-right: 17px;
   text-align: right;
+}
+
+/*Contact Info Section*/
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 500px;
+  background-color: #b3d4fc;
+  margin-top: 50px;
+}
+
+.contacts .social {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 330px;
+  height: 220px;
+}
+.contacts .social a {
+  flex: 0 1 calc(60% / 3 - 5px);
+  min-height: 97px;
+  margin-bottom: 5px;
+}
+
+.contacts .social img {
+  border-radius: 5px;
 }

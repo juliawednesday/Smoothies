@@ -12,20 +12,20 @@
 </head>
 <body>
     <!----HEADER---->
-    <header class="top_header">
+    <header id="home" class="top_header">
         <div class="wrapper">
 <nav class="left_nav">
 <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Blog</a></li>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#blog">Blog</a></li>
 </ul>
 </nav>
 <a href="#" class="logo"></a>
 <img src="img/logo.png" alt="logo" srcset="img/logo@2x.png 2x" />
 <nav class="right_nav">
     <ul>
-        <li><a href="#">Our Team</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#contacts">Contacts</a></li>
     </ul>
 </nav>
         </div>
@@ -44,7 +44,7 @@
           <animateTransform
               attributeName="transform"
               begin="0s"
-              dur="1.5s"
+              dur="1s"
               type="translate"
               from="0,0"
               to="40,0"
@@ -52,8 +52,8 @@
         </path>
       </pattern>
     </defs>
-    <text text-anchor="middle" x="50" y="15" font-size="18" fill="url(#wave)"  fill-opacity="0.9">LET'S SMOOTHIE</text>
-    <text text-anchor="middle" x="50" y="15" font-size="18" fill="url(#gradient)" fill-opacity="0.8">LET'S SMOOTHIE</text>
+    <text text-anchor="middle" x="50" y="15" font-size="18" fill="url(#wave)"  fill-opacity="1">LET'S SMOOTHIE</text>
+    <text text-anchor="middle" x="50" y="15" font-size="18" fill="url(#gradient)" fill-opacity="0.7">LET'S SMOOTHIE</text>
   </svg>
   <span class="subtitle">Some facts about our activity</span>
 </section>
@@ -62,7 +62,7 @@
     <section class="about_box wrapper"> 
          <!----Left--Side--Text---->
     <div class="item_data">
-        <article>
+        <article id="blog">
         <h3 class="bounce-top">Triple Berry Smoothie</h3>
         <p>A smoothie is so much more than blended fruit. It's an art with all of it's different elements blending perfectly together.</p>
         </article>
@@ -141,7 +141,7 @@
 </div>
 </section>
 <!--Dream--Team-->
-<section class="team">
+<section id="team" class="team">
 <h2 class="box_title">Dream Team</h2>
 <span class="subtitle">Meet our members</span>
 <div class="wrapper">
@@ -219,7 +219,7 @@
 </section>
 
 <!--Contact-Info-Section-->
-<section class="contacts svg_style">
+<section id="contacts" class="contacts svg_style">
 <div class="open_hours"> 
 <h3>Opening Hours:</h3>
 <span>Monday / 9:00 – 20:00</span>

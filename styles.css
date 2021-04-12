@@ -449,7 +449,7 @@ body {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  color: #9a9a9a;
+  color: #8a8787;
 }
 
 .wrapper {
@@ -997,3 +997,6 @@ svg {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  }

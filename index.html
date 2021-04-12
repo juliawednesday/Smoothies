@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="animation" href="/animation.scss">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
     <title>Smoothie</title>
@@ -16,7 +17,7 @@
 <nav class="left_nav">
 <ul>
     <li><a href="#">Home</a></li>
-    <li><a href="#" class="active">About</a></li>
+    <li><a href="#">About</a></li>
     <li><a href="#">Blog</a></li>
 </ul>
 </nav>
@@ -32,10 +33,32 @@
         </div>
     </header>
      <!----ABOUT--US--Section---->
-    <section class="page_heading about_page svg_style">
-        <h2>About us</h2>
-        <span class="subtitle">Some facts about our activity</span>
-    </section>
+     <!--ANIMATION SECTION-->
+<section class="page_heading about_page svg_style">
+<svg class="about_page" viewbox="-90 0 250 20">
+    <defs>
+      <linearGradient id="gradient" x1="2" x2="2" y1="0" y2="1">
+        <stop offset="5%" stop-color="#fff"/>
+        <stop offset="90%" stop-color="#BCEADF"/>
+      </linearGradient>
+      <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+        <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+          <animateTransform
+              attributeName="transform"
+              begin="0s"
+              dur="1.5s"
+              type="translate"
+              from="0,0"
+              to="40,0"
+              repeatCount="indefinite" />
+        </path>
+      </pattern>
+    </defs>
+    <text text-anchor="middle" x="50" y="15" font-size="18" fill="url(#wave)"  fill-opacity="1">LET'S SMOOTHIE</text>
+    <text text-anchor="middle" x="50" y="15" font-size="18" fill="url(#gradient)" fill-opacity="0.7">LET'S SMOOTHIE</text>
+  </svg>
+  <span class="subtitle">Some facts about our activity</span>
+</section>
     <!----Main--Smoothie--Section---->
     <main>
     <section class="about_box wrapper"> 
@@ -200,7 +223,7 @@
 <!--Contact-Info-Section-->
 <section class="contacts svg_style">
 <div class="open_hours"> 
-    <h3>Opening Hours:</h3>
+<h3>Opening Hours:</h3>
 <span>Monday / 9:00 – 20:00</span>
 <span>Tuesday / 9:00 – 20:00</span>
 <span>Wednesday / 9:00 – 20:00</span>
@@ -209,19 +232,22 @@
 <span>Saturday / 9:00 – 20:00</span>
 <span>Sunday / CLOSED</span>
 </div>
-<div>
+<div class="contact_info">
     <h3>Contact us:</h3>
+    <h4><a href="#"><img src="img/icons/contacts1.png" alt=""/></a>+389 4320 32 391</h4>
+    <h4><a href="#"><img src="img/icons/contacts2.png" alt=""/></a>hey@smoothie.makers.co</h4>
+    <h4><a href="#"><img src="img/icons/contacts3.png" alt=""/></a>France, Paris, Lille de la Cite 1p</h4>
 </div>
-<div> 
+<div class="social"> 
     <h3>Instagram feed:</h3>
-    <span class="social">
+    <div>
         <a href="#"><img src="/img/instagram-feed/insta1.png" alt=""/></a>
         <a href="#"><img src="/img/instagram-feed/insta2.png" alt=""/></a>
         <a href="#"><img src="/img/instagram-feed/insta3.png" alt=""/></a>
         <a href="#"><img src="/img/instagram-feed/insta4.png" alt=""/></a>
         <a href="#"><img src="/img/instagram-feed/insta5.png" alt=""/></a>
         <a href="#"><img src="/img/instagram-feed/insta6.png" alt=""/></a>
-    </span>
+    </div>
 </div>
 </section>
    

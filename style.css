@@ -1005,3 +1005,5 @@ svg {
 html {
   scroll-behavior: smooth;
   }
+
+  @import "../About-smoothie/media.css";

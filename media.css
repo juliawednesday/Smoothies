@@ -1,52 +1,254 @@
-
-
 @media (max-width: 768px) {
-	.image img {
-		width: 200px;
-		height: 200px;
-		}
-		
-		.team_list .team_member {
-		padding-bottom: 5px;
-		padding-left: 5px;
-		padding-right: 5px;
-		}
-		
-		.team_list .team_member .data {
-			margin-left: 2px;
-		}
-		
-		.team_list .team_member .data .name {
-		font-size: 20px;
-		line-height: 30px;
-	}
-	
-	.team_list .team_member .data .post {
-		font-size: 16px;
-			margin-bottom: 5px;
-	}
-	
-	.contacts .open_hours {
-		margin-left: 15px;
-	}
-	.contacts h3 {
-		font-size: 22px;
-	}
+  .image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about_box .item_data h3 {
+    font-size: 24px;
+  }
+
+  .team_list .team_member {
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .team_list .team_member .data {
+    margin-left: 2px;
+  }
+
+  .team_list .team_member .data .name {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .team_list .team_member .data .post {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .contacts .open_hours {
+    margin-left: 15px;
+  }
+  .contacts h3 {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 600px) {
-	
-}
+  svg {
+    width: 600px;
+  }
 
+  header.top_header .wrapper nav.left_nav ul,
+  header.top_header .wrapper nav.right_nav ul {
+    font-size: 14px;
+  }
+
+  .about_box .item_data p {
+    color: #5f5c5c;
+  }
+
+  .logo img {
+    width: 150px;
+    height: 50px;
+  }
+
+  .about_box {
+    margin-top: 5px;
+  }
+
+  .about_box .item_data img {
+    height: 450px;
+    width: 300px;
+    margin-bottom: 30px;
+    position: absolute;
+    transform: translate(-54%, -60%);
+  }
+
+  .about_box .item_data h3 {
+    font-size: 20px;
+  }
+
+  .about_box .item_data p {
+    width: 200px;
+    position: relative;
+  }
+
+  .about_box .item_data:first-child {
+    padding-right: 5px;
+    z-index: 10;
+  }
+
+  .about_box .item_data {
+    position: relative;
+    padding: 50px;
+    z-index: 10;
+  }
+
+  .infographic .info_list .item_info .icon img {
+    width: 100px;
+    height: 100px;
+  }
+  .infographic .info_list .item_info .count {
+    font-size: 30px;
+  }
+
+  .infographic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
+
+  .team .subtitle {
+    margin-bottom: 30px;
+  }
+
+  .team_list {
+    flex-direction: column;
+  }
+
+  .team_list .team_member {
+    width: calc(50% - 31.5px);
+    margin-left: 240px;
+  }
+
+  .team_list .team_member:nth-child(3),
+  .team_list .team_member:nth-child(4) {
+    margin-left: 0;
+    margin-left: 65px;
+    margin-right: 190px;
+  }
+
+  .contacts {
+    margin-top: -10px;
+  }
+
+  .contacts h3 {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .contacts span {
+    font-size: 14px;
+  }
+  .inst-links img {
+    width: 60px;
+    height: 60px;
+  }
+  .inst-links-box {
+    margin-top: -45px;
+    margin-left: 15px;
+  }
+
+  .contacts .open_hours {
+    width: 280px;
+  }
+
+  .contacts .contact_info {
+    width: 340px;
+  }
+}
 
 @media (max-width: 414px) {
+  svg {
+    width: 414px;
+    margin-right: 45px;
+  }
 
-    
+  header.top_header .wrapper nav.left_nav ul,
+  header.top_header .wrapper nav.right_nav ul {
+    font-size: 10px;
+  }
+
+  .page_heading span.subtitle {
+    font-size: 20px;
+  }
+
+  .logo img {
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+  }
+
+  .about_box .item_data img {
+    transform: translate(-26%, -60%);
+  }
+
+  .page_heading {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .about_box .item_data {
+    padding: 10px;
+  }
+
+  .about_box .item_data:last-child {
+    display: none;
+  }
+
+  .team_list .team_member {
+    margin-left: 206px;
+  }
+
+  .team_list .team_member:nth-child(3),
+  .team_list .team_member:nth-child(4) {
+    margin-left: 21px;
+  }
+
+  .team_list .team_member .data p {
+    font-size: 12px;
+  }
+
+  .infographic .info_list .item_info {
+    margin-right: 0px;
+  }
+
+  .contacts .open_hours {
+    display: none;
+  }
+
+  .contacts .contact_info {
+    margin-left: 25px;
+  }
 }
 
-
 @media (max-width: 375px) {
+  .logo img {
+    width: 100px;
+    height: 35px;
+  }
 
-   
+  .about_box .item_data img {
+    transform: translate(-34%, -60%);
+  }
 
+  .infographic .info_list .item_info .count {
+    font-size: 20px;
+  }
+
+  .infographic .info_list .item_info h4 {
+    font-size: 12px;
+  }
+  .infographic .info_list .item_info .icon {
+    width: 78px;
+    height: 78px;
+  }
+  .infographic .info_list .item_info .icon img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .team_list .team_member {
+    margin-left: 194px;
+  }
+
+  .team_list .team_member:nth-child(3),
+  .team_list .team_member:nth-child(4) {
+    margin-left: 16px;
+  }
 }

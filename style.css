@@ -1,4 +1,5 @@
 /*----CSS RESET-------*/
+/*----CSS RESET-------*/
 
 html,
 body,
@@ -535,7 +536,7 @@ header.top_header .wrapper nav.right_nav ul li a:hover {
 }
 
 .page_heading h2 {
-  font-family: Quicksand, sans-serif;
+  font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -644,7 +645,7 @@ text-align: center;
 }
 
 .infographic .info_list .item_info .count {
-font-family: Waiting for the Sunrise, sans-serif;
+font-family: Waiting for the Sunrise;
 font-style: normal;
 font-weight: 300;
 font-size: 50px;
@@ -654,7 +655,7 @@ display: block;
 }
 
 .infographic .info_list .item_info h4 {
-  font-family: Quicksand, sans-serif;
+  font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -778,7 +779,6 @@ margin-left: 5px;
 /*Contact Info Section*/
 .contacts {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
@@ -792,8 +792,6 @@ margin-left: 5px;
   flex-wrap: wrap;
   width: 320px;
   height: 300px;
-  padding-right: 300px;
-  margin-right: 250px;
 }
 .contacts .social a {
   flex: 0 1 calc(60% / 3 - 5px);
@@ -826,8 +824,6 @@ opacity: 70%;
   justify-content: space-evenly;
   width: 320px;
   height: 300px;
-  padding-left: 300px;
-  margin-left: 300px;
 }
 
 .contacts .open_hours span {
@@ -1005,5 +1001,3 @@ svg {
 html {
   scroll-behavior: smooth;
   }
-
-  @import "../About-smoothie/media.css";
